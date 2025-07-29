@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'Example' do
+  pod 'Mindbox'
+end
+
+target 'MindboxNotificationServiceExtension' do
+   pod 'MindboxNotifications'
+end
+
+target 'MindboxNotificationContentExtension' do
+   pod 'MindboxNotifications'
+end
