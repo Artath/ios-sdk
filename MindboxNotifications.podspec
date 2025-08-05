@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
     'MindboxNotifications' => ['MindboxNotifications/**/*.xcprivacy'] 
   }
   spec.swift_version = "5"
-  spec.dependency 'MindboxLogger', :git => 'https://github.com/Artath/ios-sdk.git', :tag => '2.13.4-custom'
+  spec.dependency 'MindboxLogger', :git => 'https://github.com/Artath/ios-sdk.git', :branch => '2.13.4-custom'
 
 end
