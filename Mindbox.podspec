@@ -7,13 +7,13 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "CC BY-NC-ND 4.0", :file => "LICENSE.md" }
   spec.author       = { "Mindbox" => "ios-sdk@mindbox.ru" }
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/mindbox-cloud/ios-sdk.git", :tag => spec.version }
+  spec.source           = { :git => 'https://github.com/Artath/ios-sdk.git', :branch => '2.13.4-custom'}
   spec.source_files  = "Mindbox/**/*.{swift}", "SDKVersionProvider/**/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.resource_bundles = { 
     'Mindbox' => ['Mindbox/**/*.xcassets', 'Mindbox/**/*.xcdatamodeld', 'Mindbox/**/*.xcprivacy']
   } 
   spec.swift_version = "5"
-  spec.dependency 'MindboxLogger', :git => 'https://github.com/Artath/ios-sdk.git', :branch => '2.13.4-custom'
+  spec.dependency 'MindboxLogger', 
 
 end
