@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
     'MindboxNotifications' => ['MindboxNotifications/**/*.xcprivacy'] 
   }
   spec.swift_version = "5"
-  spec.dependency 'MindboxLogger',
+  spec.dependency 'MindboxLogger'
 
 end
