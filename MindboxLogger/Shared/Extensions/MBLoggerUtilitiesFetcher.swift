@@ -20,7 +20,9 @@ class MBLoggerUtilitiesFetcher {
         guard let hostApplicationName = hostApplicationName else {
             fatalError("CFBundleShortVersionString not found for host app")
         }
-        let identifier = "group.cloud.Mindbox.\(hostApplicationName)"
+        // change app group name validation
+        // let identifier = "group.cloud.Mindbox.\(hostApplicationName)"
+        let identifier = "group.cloud.Mindbox.\(hostApplicationName).alt"
         let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: identifier)
         guard url != nil else {
             #if targetEnvironment(simulator)
