@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "CC BY-NC-ND 4.0", :file => "LICENSE.md" }
   spec.author       = { "Mindbox" => "ios-sdk@mindbox.ru" }
   spec.platform     = :ios, "12.0"
-  spec.source           = {  :git => 'https://github.com/Artath/ios-sdk.git', :branch => '2.13.4-custom' }
+  spec.source           = {  :git => 'https://github.com/Artath/ios-sdk.git', :branch => '2.14.5-custom' }
   spec.source_files  = "MindboxNotifications/**/*.{swift}", "SDKVersionProvider/**/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.resource_bundles = { 
